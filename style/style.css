@@ -1,0 +1,35 @@
+.metric-btn {
+    transition: all 0.3s ease;
+}
+.metric-btn:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.5));
+}
+.truth-table {
+    overflow-x: auto;
+}
+.truth-table table {
+    min-width: 100%;
+}
+.truth-table th, .truth-table td {
+    white-space: nowrap;
+}
+.copy-btn {
+    transition: all 0.2s ease;
+}
+.copy-btn:hover {
+    background-color: #4f46e5;
+}
+.copy-btn:active {
+    transform: scale(0.95);
+}
+.input-field {
+    transition: border-color 0.3s ease;
+}
+.input-field:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.25);
+}
+.highlight-row {
+    background-color: rgba(167, 243, 208, 0.3) !important;
+}
